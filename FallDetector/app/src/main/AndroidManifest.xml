@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gzproject.gokcezeren.gzfalldetection">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appfinal"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_man_circle"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.gzproject.gokcezeren.gzfalldetection.ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gzproject.gokcezeren.gzfalldetection.ui.SetActivity" />
+        <activity android:name="com.gzproject.gokcezeren.gzfalldetection.ui.StartActivity" />
+        <activity android:name="com.gzproject.gokcezeren.gzfalldetection.ui.HistoryActivity"></activity>
+    </application>
+
+</manifest>

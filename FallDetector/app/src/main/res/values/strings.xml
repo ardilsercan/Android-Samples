@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FallDetector</string>
+    <string name="main_title">Fall Detector</string>
+    <string name="main_description">The app sends SMS and Calls specify number when falling is detected. This application developed by Gokce Zeren</string>
+    <string name="main_btn_choose">Choose contact</string>
+    <string name="main_btn_start">Start</string>
+    <string name="main_btn_history">History</string>
+    <string name="start_title">Monitor events</string>
+    <string name="set_title">Emergency contact</string>
+    <string name="set_info">Please, insert the phone number you would like to call in a fall emergency</string>
+    <string name="set_code_hint">0090</string>
+    <string name="set_phone_hint">53********</string>
+    <string name="set_btn_done">Done</string>
+    <string name="start_clear">Clear</string>
+</resources>
